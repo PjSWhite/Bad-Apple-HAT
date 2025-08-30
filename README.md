@@ -1,5 +1,9 @@
 # Belle
 
+> [!IMPORTANT]
+> The `pcb` branch contains KiCAD files related to this project
+
+This repository contains the code, 3d models, and software related to this upcoming research paper:
 > *Experimental Development of an Autonomous Rover Nurse for Reliable Pre-Meal Insulin Delivery: Advancing Diabetes Care Towards SDG 3 - Good Health and Well-Being*
 
 This repository contains the code and CAD files related to this research
