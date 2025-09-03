@@ -12,6 +12,56 @@
 		(comment 4 "Schematic Overview")
 	)
 	(lib_symbols)
+	(text "The I^{2}C Bus might be moved to the bottom\nonce I get to implementing the power mgmt system"
+		(exclude_from_sim no)
+		(at 112.522 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5517fe2a-ccaf-43aa-a958-be20ae8a45a0")
+	)
+	(wire
+		(pts
+			(xy 137.16 64.77) (xy 137.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00178e26-e8b2-43dd-842f-cef2311fcf73")
+	)
+	(wire
+		(pts
+			(xy 142.24 59.69) (xy 82.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14202f88-0d83-4af7-9875-ac6e98a4b9b1")
+	)
+	(wire
+		(pts
+			(xy 134.62 72.39) (xy 134.62 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189cc31e-3e40-4bc4-bd08-1530e4912c2c")
+	)
+	(wire
+		(pts
+			(xy 87.63 72.39) (xy 87.63 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de6f517-3eda-4b42-a478-0369f8197ade")
+	)
 	(wire
 		(pts
 			(xy 100.33 101.6) (xy 113.03 101.6)
@@ -64,6 +114,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 67.31) (xy 90.17 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53083fc8-2e37-4838-b1cc-8a12d575e3be")
+	)
+	(wire
+		(pts
 			(xy 161.29 93.98) (xy 182.88 93.98)
 		)
 		(stroke
@@ -74,23 +134,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 105.41) (xy 182.88 105.41)
+			(xy 134.62 67.31) (xy 90.17 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57f3f174-145b-4bcb-87c9-c1a2bc14c9c3")
+		(uuid "58c959b2-de7a-4394-865c-14df27562d28")
 	)
 	(wire
 		(pts
-			(xy 161.29 102.87) (xy 182.88 102.87)
+			(xy 87.63 64.77) (xy 137.16 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64cb7a06-f81a-4dd8-b7bb-f89889f4cd2b")
+		(uuid "624fc694-e741-408f-af94-9a12eb98c2c7")
 	)
 	(wire
 		(pts
@@ -124,6 +184,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 59.69) (xy 82.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce15606-7dd2-4e16-991d-b9da6c36a080")
+	)
+	(wire
+		(pts
 			(xy 143.51 111.76) (xy 182.88 111.76)
 		)
 		(stroke
@@ -154,6 +224,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 72.39) (xy 142.24 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce04043-e263-4841-a964-5812c92c521e")
+	)
+	(wire
+		(pts
 			(xy 100.33 74.93) (xy 113.03 74.93)
 		)
 		(stroke
@@ -171,16 +251,6 @@
 			(type default)
 		)
 		(uuid "b2a83380-2bcf-4c64-a6fa-f7d7121b8726")
-	)
-	(wire
-		(pts
-			(xy 161.29 99.06) (xy 182.88 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b49c884b-2d1a-4c48-9304-11b2b5d4019f")
 	)
 	(wire
 		(pts
@@ -211,6 +281,16 @@
 			(type default)
 		)
 		(uuid "bca93649-2cbf-4430-941b-0af709f4269b")
+	)
+	(wire
+		(pts
+			(xy 161.29 86.36) (xy 182.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde20c12-8df1-49a8-9b06-dff0057eb8ab")
 	)
 	(wire
 		(pts
@@ -328,26 +408,6 @@
 				(justify right)
 			)
 		)
-		(pin "I^{2}C SCL" output
-			(at 161.29 102.87 0)
-			(uuid "491fc9b3-da26-4ba4-ba9b-6db792853e14")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I^{2}C SDA" bidirectional
-			(at 161.29 105.41 0)
-			(uuid "4d367623-af89-46d3-acb2-7391381b8b0e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "M1DA" output
 			(at 113.03 74.93 180)
 			(uuid "fa9aca7e-8b1c-49e2-87c1-cb860a010d2a")
@@ -428,16 +488,6 @@
 				(justify left)
 			)
 		)
-		(pin "~{SERVO ENABLE}" output
-			(at 161.29 99.06 0)
-			(uuid "5465b14b-80a4-44e3-a8dc-713b72fb0a6e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MOTOR SPEED" output
 			(at 113.03 101.6 180)
 			(uuid "4fa90b32-0f2a-40c6-8770-bf7a87de274e")
@@ -486,6 +536,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "FAN CONTROL" output
+			(at 161.29 86.36 0)
+			(uuid "6b001e8d-d1b8-4ec6-98e8-29d6048d6371")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I^{2}C SCL" output
+			(at 134.62 72.39 90)
+			(uuid "1a9a9be8-2d50-4656-88b7-0076066329a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I^{2}C SDA" bidirectional
+			(at 137.16 72.39 90)
+			(uuid "088b13f0-c2d2-4552-b5b2-57a66a62eacd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{SERVO ENABLE}" output
+			(at 142.24 72.39 90)
+			(uuid "6a90d2cd-9422-43ef-9d38-615172fc2be8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -590,29 +680,9 @@
 				(justify left)
 			)
 		)
-		(pin "~{SERVO ENABLE}" input
-			(at 182.88 99.06 180)
-			(uuid "1e593945-04fb-4855-9714-28bdef9ef759")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I^{2}C SCL" input
-			(at 182.88 102.87 180)
-			(uuid "e5d4b4dd-d178-44e8-b413-88e2ecf76f29")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I^{2}C SDA" bidirectional
-			(at 182.88 105.41 180)
-			(uuid "9d61b3f8-3fed-490e-a0b1-06338021e8f6")
+		(pin "FAN CONTROL" input
+			(at 182.88 86.36 180)
+			(uuid "0ec51d7d-198c-490d-8a6b-731972aa1f91")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -745,6 +815,36 @@
 		(pin "MOTOR SPEED" input
 			(at 100.33 101.6 0)
 			(uuid "4297e26a-030e-4736-990d-bf842c2f7e42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I^{2}C SCL" input
+			(at 90.17 72.39 90)
+			(uuid "034ff37e-d570-48b9-9dbb-b8f23e2e4343")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I^{2}C SDA" bidirectional
+			(at 87.63 72.39 90)
+			(uuid "7b83f155-21ee-4f0d-a9fc-babeba92db58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{SERVO ENABLE}" input
+			(at 82.55 72.39 90)
+			(uuid "4e00578a-fe8d-4f7e-ae57-db98a49f2850")
 			(effects
 				(font
 					(size 1.27 1.27)

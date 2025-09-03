@@ -2514,6 +2514,17 @@
 		)
 		(uuid "a4e009bf-03f1-4d9e-a35e-2055ec17253a")
 	)
+	(text "Fan Control. Please set GPIO 18 as the pin in raspi-config"
+		(exclude_from_sim no)
+		(at 193.04 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a860cd23-af57-4568-af55-c16128f52bc8")
+	)
 	(text "I^{2}C Interface for the Identification\nEEPROM. Only used during development to\nflash said EEPROM with information required\nfor ease of use"
 		(exclude_from_sim no)
 		(at 48.514 141.478 0)
@@ -3812,6 +3823,17 @@
 			(justify right)
 		)
 		(uuid "6dd2c7d1-e31e-4e0c-a9ad-3bf34f5f43fe")
+	)
+	(hierarchical_label "FAN CONTROL"
+		(shape output)
+		(at 177.8 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7453973d-9287-40ac-8163-8eedd9ae2acf")
 	)
 	(hierarchical_label "I^{2}C SDA"
 		(shape bidirectional)

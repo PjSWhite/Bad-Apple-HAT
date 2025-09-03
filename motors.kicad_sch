@@ -481,6 +481,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 80.01) (xy 168.91 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e08506a-6fe8-4dbd-bacc-9cb0ffb3f83e")
+	)
+	(wire
+		(pts
 			(xy 222.25 100.33) (xy 222.25 109.22)
 		)
 		(stroke
@@ -641,6 +651,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 82.55) (xy 168.91 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576f66fb-e418-44b3-b119-177bea6536bd")
+	)
+	(wire
+		(pts
 			(xy 212.09 90.17) (xy 212.09 115.57)
 		)
 		(stroke
@@ -668,6 +688,16 @@
 			(type default)
 		)
 		(uuid "66198d34-6162-48a9-841d-e17e26ad0279")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.9) (xy 168.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5d1950-a2f9-4a89-8c89-e5aad9255e98")
 	)
 	(wire
 		(pts
@@ -954,6 +984,17 @@
 		)
 		(uuid "561def08-c72c-47d5-9802-1b857c01be1c")
 	)
+	(hierarchical_label "I^{2}C SDA"
+		(shape bidirectional)
+		(at 165.1 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8171fe1a-f06b-4075-99a8-60c08b2dd552")
+	)
 	(hierarchical_label "M2DB"
 		(shape input)
 		(at 87.63 67.31 0)
@@ -987,6 +1028,17 @@
 		)
 		(uuid "ae77fe2f-9740-4009-bc60-c573da20dc7a")
 	)
+	(hierarchical_label "I^{2}C SCL"
+		(shape input)
+		(at 165.1 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd3d8117-e8a4-4ae6-b651-1a85c2848fbd")
+	)
 	(hierarchical_label "M3DB"
 		(shape input)
 		(at 87.63 72.39 0)
@@ -998,10 +1050,21 @@
 		)
 		(uuid "dec78810-575c-4376-9bff-82b683170062")
 	)
+	(hierarchical_label "~{SERVO ENABLE}"
+		(shape input)
+		(at 165.1 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4f9fe92-1e22-4313-8498-886fbccdcec3")
+	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 247.65 67.31) (xy 166.37 67.31) (xy 166.37 128.27) (xy 247.65 128.27)
+				(xy 247.65 67.31) (xy 137.16 67.31) (xy 137.16 128.27) (xy 247.65 128.27)
 			)
 			(stroke
 				(width 0)
@@ -1725,6 +1788,36 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "I^{2}C SCL" input
+			(at 168.91 80.01 180)
+			(uuid "24de9bbb-4e57-4f89-abf5-baac29692526")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I^{2}C SDA" bidirectional
+			(at 168.91 82.55 180)
+			(uuid "1e6a2af0-625e-4ef3-9baf-758fce3a8ad3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SERVO ENABLE}" input
+			(at 168.91 88.9 180)
+			(uuid "9ce2905c-03b7-4ebe-8b39-a2e91a185b66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
