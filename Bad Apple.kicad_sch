@@ -12,6 +12,81 @@
 		(comment 4 "Schematic Overview")
 	)
 	(lib_symbols)
+	(text "3) Power Supply B (12V 8A)"
+		(exclude_from_sim no)
+		(at 240.03 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20078d84-b504-474a-b9e8-b27128826340")
+	)
+	(text "Datasheet Overview"
+		(exclude_from_sim no)
+		(at 261.62 15.494 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "42472342-5275-4d83-a829-025c44b54dab")
+	)
+	(text "5) Motor Driver"
+		(exclude_from_sim no)
+		(at 240.03 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+			(href "https://cdn.sparkfun.com/assets/0/1/b/b/3/TB6612FNG.pdf")
+		)
+		(uuid "5db43665-882c-4c57-8f57-c0a14a9ce65c")
+	)
+	(text "2) Power Supply A (5V 4A)"
+		(exclude_from_sim no)
+		(at 240.03 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "d378c445-6bb0-47b7-b727-7a6ed356f47b")
+	)
+	(text "4) IMU"
+		(exclude_from_sim no)
+		(at 240.03 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+			(href "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588905297688088576")
+		)
+		(uuid "d83cbcec-d282-46f6-87d8-3d992182bc9a")
+	)
+	(text "1) Raspberry Pi/Main System"
+		(exclude_from_sim no)
+		(at 240.03 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+			(href "https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-datasheet.pdf")
+		)
+		(uuid "f87dfd94-2556-475a-913b-b4ffdfba7bce")
+	)
 	(wire
 		(pts
 			(xy 81.28 113.03) (xy 134.62 113.03)

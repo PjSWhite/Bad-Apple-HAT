@@ -2569,6 +2569,17 @@
 		)
 		(uuid "f2dbe6d1-9dad-49ad-9b3d-606afb51ff2f")
 	)
+	(text "Motor Enable. This is pulled LOW by default, and\nmust be pulled HIGH when the robot should begin\nto move"
+		(exclude_from_sim no)
+		(at 92.964 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa06f4c9-1051-4eef-a694-3517b78b6e7e")
+	)
 	(text "Additional pin functions:\nhttps://pinout.xyz/"
 		(exclude_from_sim no)
 		(at 176.53 165.1 0)
