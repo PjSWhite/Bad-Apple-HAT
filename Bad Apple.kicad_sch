@@ -12,55 +12,25 @@
 		(comment 4 "Schematic Overview")
 	)
 	(lib_symbols)
-	(text "The I^{2}C Bus might be moved to the bottom\nonce I get to implementing the power mgmt system"
-		(exclude_from_sim no)
-		(at 112.522 62.738 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5517fe2a-ccaf-43aa-a958-be20ae8a45a0")
-	)
 	(wire
 		(pts
-			(xy 137.16 64.77) (xy 137.16 72.39)
+			(xy 81.28 113.03) (xy 134.62 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00178e26-e8b2-43dd-842f-cef2311fcf73")
+		(uuid "0df19e19-830b-42f5-8ac7-50b8ce1c3ddb")
 	)
 	(wire
 		(pts
-			(xy 142.24 59.69) (xy 82.55 59.69)
+			(xy 137.16 115.57) (xy 78.74 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14202f88-0d83-4af7-9875-ac6e98a4b9b1")
-	)
-	(wire
-		(pts
-			(xy 134.62 72.39) (xy 134.62 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "189cc31e-3e40-4bc4-bd08-1530e4912c2c")
-	)
-	(wire
-		(pts
-			(xy 87.63 72.39) (xy 87.63 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1de6f517-3eda-4b42-a478-0369f8197ade")
+		(uuid "1d96a817-ee9e-4dff-acda-510b92874144")
 	)
 	(wire
 		(pts
@@ -74,7 +44,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 106.68) (xy 143.51 111.76)
+			(xy 88.9 68.58) (xy 132.08 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303135d0-6c12-4efa-aae3-1745045e49ff")
+	)
+	(wire
+		(pts
+			(xy 156.21 106.68) (xy 156.21 111.76)
 		)
 		(stroke
 			(width 0)
@@ -84,13 +64,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 116.84) (xy 182.88 116.84)
+			(xy 149.86 116.84) (xy 182.88 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3b0a3401-4ddb-492f-8532-eb47f9a28fb4")
+	)
+	(wire
+		(pts
+			(xy 134.62 106.68) (xy 134.62 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f0a53d-c77b-4f78-9930-3cbd30b6c4b7")
 	)
 	(wire
 		(pts
@@ -104,7 +94,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 106.68) (xy 134.62 119.38)
+			(xy 147.32 106.68) (xy 147.32 119.38)
 		)
 		(stroke
 			(width 0)
@@ -114,13 +104,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 67.31) (xy 90.17 72.39)
+			(xy 78.74 109.22) (xy 78.74 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53083fc8-2e37-4838-b1cc-8a12d575e3be")
+		(uuid "551b3019-6161-4c73-8c64-ec6324c00af1")
 	)
 	(wire
 		(pts
@@ -134,26 +124,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 67.31) (xy 90.17 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58c959b2-de7a-4394-865c-14df27562d28")
-	)
-	(wire
-		(pts
-			(xy 87.63 64.77) (xy 137.16 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "624fc694-e741-408f-af94-9a12eb98c2c7")
-	)
-	(wire
-		(pts
 			(xy 161.29 91.44) (xy 182.88 91.44)
 		)
 		(stroke
@@ -164,13 +134,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 119.38) (xy 182.88 119.38)
+			(xy 147.32 119.38) (xy 182.88 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "69e6c699-bcf5-4ff9-b590-b151c8efccfe")
+	)
+	(wire
+		(pts
+			(xy 100.33 104.14) (xy 113.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73265659-d7e0-4d97-a0b9-c5c4ec4010e0")
 	)
 	(wire
 		(pts
@@ -184,17 +164,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 59.69) (xy 82.55 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ce15606-7dd2-4e16-991d-b9da6c36a080")
-	)
-	(wire
-		(pts
-			(xy 143.51 111.76) (xy 182.88 111.76)
+			(xy 156.21 111.76) (xy 182.88 111.76)
 		)
 		(stroke
 			(width 0)
@@ -214,23 +184,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 114.3) (xy 182.88 114.3)
+			(xy 153.67 114.3) (xy 182.88 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "979d93d4-b069-4cae-a1ea-3fe86d257028")
-	)
-	(wire
-		(pts
-			(xy 142.24 72.39) (xy 142.24 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ce04043-e263-4841-a964-5812c92c521e")
 	)
 	(wire
 		(pts
@@ -264,7 +224,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 106.68) (xy 137.16 116.84)
+			(xy 149.86 106.68) (xy 149.86 116.84)
 		)
 		(stroke
 			(width 0)
@@ -284,6 +244,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 68.58) (xy 132.08 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb71087-d0af-4648-aed2-6159a78244ca")
+	)
+	(wire
+		(pts
 			(xy 161.29 86.36) (xy 182.88 86.36)
 		)
 		(stroke
@@ -294,7 +264,27 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 106.68) (xy 140.97 114.3)
+			(xy 137.16 106.68) (xy 137.16 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3f12f6-96f7-490a-b598-a7aad1bd5e10")
+	)
+	(wire
+		(pts
+			(xy 88.9 72.39) (xy 88.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e677069e-17fc-4eb2-a656-06d54852f69d")
+	)
+	(wire
+		(pts
+			(xy 153.67 106.68) (xy 153.67 114.3)
 		)
 		(stroke
 			(width 0)
@@ -311,6 +301,16 @@
 			(type default)
 		)
 		(uuid "fd2685b4-6b42-4ee2-8d42-f94a943be064")
+	)
+	(wire
+		(pts
+			(xy 81.28 109.22) (xy 81.28 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fffbb539-bcaa-494e-be0a-1d4ba6b729bd")
 	)
 	(sheet
 		(at 40.64 120.65)
@@ -499,7 +499,7 @@
 			)
 		)
 		(pin "U1 ECHO" input
-			(at 143.51 106.68 270)
+			(at 156.21 106.68 270)
 			(uuid "2f7a1d1d-b7c4-48ab-99ec-6e05718e3b04")
 			(effects
 				(font
@@ -509,7 +509,7 @@
 			)
 		)
 		(pin "U1 TRIGGER" output
-			(at 140.97 106.68 270)
+			(at 153.67 106.68 270)
 			(uuid "6244a54c-5118-40be-aa6e-e5ff77eedd36")
 			(effects
 				(font
@@ -519,7 +519,7 @@
 			)
 		)
 		(pin "U2 ECHO" input
-			(at 137.16 106.68 270)
+			(at 149.86 106.68 270)
 			(uuid "b7148e33-d0ad-48a8-af21-90265d83ae0b")
 			(effects
 				(font
@@ -529,7 +529,7 @@
 			)
 		)
 		(pin "U2 TRIGGER" output
-			(at 134.62 106.68 270)
+			(at 147.32 106.68 270)
 			(uuid "60ecd456-7a7b-4e15-9da5-a5ccc4594e66")
 			(effects
 				(font
@@ -549,33 +549,43 @@
 			)
 		)
 		(pin "I^{2}C SCL" output
-			(at 134.62 72.39 90)
+			(at 134.62 106.68 270)
 			(uuid "1a9a9be8-2d50-4656-88b7-0076066329a7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "I^{2}C SDA" bidirectional
-			(at 137.16 72.39 90)
+			(at 137.16 106.68 270)
 			(uuid "088b13f0-c2d2-4552-b5b2-57a66a62eacd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "~{SERVO ENABLE}" output
-			(at 142.24 72.39 90)
+			(at 132.08 72.39 90)
 			(uuid "6a90d2cd-9422-43ef-9d38-615172fc2be8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "MOTOR ENABLE" output
+			(at 113.03 104.14 180)
+			(uuid "03976581-ae2b-4652-a463-29507acb032e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -700,7 +710,7 @@
 	)
 	(sheet
 		(at 53.34 72.39)
-		(size 46.99 30.48)
+		(size 46.99 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -724,7 +734,7 @@
 			)
 		)
 		(property "Sheetfile" "motors.kicad_sch"
-			(at 53.34 103.4546 0)
+			(at 53.34 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -823,18 +833,28 @@
 			)
 		)
 		(pin "I^{2}C SCL" input
-			(at 90.17 72.39 90)
+			(at 81.28 109.22 270)
 			(uuid "034ff37e-d570-48b9-9dbb-b8f23e2e4343")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "I^{2}C SDA" bidirectional
-			(at 87.63 72.39 90)
+			(at 78.74 109.22 270)
 			(uuid "7b83f155-21ee-4f0d-a9fc-babeba92db58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SERVO ENABLE}" input
+			(at 88.9 72.39 90)
+			(uuid "4e00578a-fe8d-4f7e-ae57-db98a49f2850")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,9 +862,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{SERVO ENABLE}" input
-			(at 82.55 72.39 90)
-			(uuid "4e00578a-fe8d-4f7e-ae57-db98a49f2850")
+		(pin "MOTOR ENABLE" input
+			(at 100.33 104.14 0)
+			(uuid "c160eb22-2e22-4723-93c9-bbaa139d51de")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3736,6 +3736,17 @@
 		)
 		(uuid "fa8135fd-b739-45c3-88e6-e37c99a502ac")
 	)
+	(hierarchical_label "MOTOR ENABLE"
+		(shape output)
+		(at 109.22 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0202c74c-bd2c-48f7-bbb1-03eae7e3ed12")
+	)
 	(hierarchical_label "~{SERVO ENABLE}"
 		(shape output)
 		(at 177.8 95.25 0)
