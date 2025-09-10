@@ -9,7 +9,7 @@
 		(date "2025-08-28")
 		(rev "1")
 		(company "Mixed Engineering Group 3 | STEM 12-Altruism / AY 2526 | CIT-U SHS")
-		(comment 4 "5V ~1A power supply for the raspberry pi and the hat's peripherals")
+		(comment 4 "5V 4A power supply for the raspberry pi and the hat's peripherals")
 	)
 	(lib_symbols)
 )

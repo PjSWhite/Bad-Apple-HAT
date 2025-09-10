@@ -11,9 +11,9 @@
 		(company "Mixed Engineering Group 3 | STEM 12-Altruism / AY 2526 | CIT-U SHS")
 	)
 	(lib_symbols)
-	(text "12-24/30V 5A (ig) power supply.\n\nThis part will not be designed unless\na motor can be selected for these things"
+	(text "12-24/30V 8A power supply for the motor driver\n+ the motors themselves"
 		(exclude_from_sim no)
-		(at 58.42 37.592 0)
+		(at 58.42 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22,9 +22,9 @@
 		)
 		(uuid "7fd8fcbb-b635-4189-bc41-ec6b66a07e22")
 	)
-	(text "5V 1A (ig) power supply\n\nThe current provided by this power supply should be\naround 20-30% higher than what is needed just in case"
+	(text "5V 4A power supply for the Raspberry pi\nand the HAT's on-board systems"
 		(exclude_from_sim no)
-		(at 58.166 90.678 0)
+		(at 57.912 88.646 0)
 		(effects
 			(font
 				(size 1.27 1.27)

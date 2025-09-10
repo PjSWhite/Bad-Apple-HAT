@@ -9,7 +9,7 @@
 		(date "2025-08-28")
 		(rev "1")
 		(company "Mixed Engineering Group 3 | STEM 12-Altruism / AY 2526 | CIT-U SHS")
-		(comment 4 "12-24V ~5A Power supply for the 4 motors that will power the robot")
+		(comment 4 "12-24V 8A Power supply for the 4 motors + the driver circuit")
 	)
 	(lib_symbols)
 )
