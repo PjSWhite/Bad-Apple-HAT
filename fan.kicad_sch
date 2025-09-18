@@ -3258,7 +3258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 147.32 110.49 0)
 			(effects
 				(font
@@ -3877,7 +3877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 147.32 115.57 0)
 			(effects
 				(font
@@ -4346,7 +4346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 147.32 120.65 0)
 			(effects
 				(font
@@ -4676,7 +4676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 147.32 125.73 0)
 			(effects
 				(font

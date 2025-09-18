@@ -87,6 +87,28 @@
 		)
 		(uuid "f87dfd94-2556-475a-913b-b4ffdfba7bce")
 	)
+	(junction
+		(at 137.16 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "539da418-ef1a-4bdf-8d70-ded588dc6741")
+	)
+	(junction
+		(at 139.7 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59291faf-7667-4250-80fd-6d641567d7f1")
+	)
+	(wire
+		(pts
+			(xy 212.09 99.06) (xy 212.09 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05957ca5-3047-481c-9e76-6318633d914c")
+	)
 	(wire
 		(pts
 			(xy 83.82 87.63) (xy 137.16 87.63)
@@ -126,6 +148,16 @@
 			(type default)
 		)
 		(uuid "303135d0-6c12-4efa-aae3-1745045e49ff")
+	)
+	(wire
+		(pts
+			(xy 209.55 105.41) (xy 139.7 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363ac5df-4778-488e-b4cb-17167c7cc22a")
 	)
 	(wire
 		(pts
@@ -199,6 +231,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 90.17) (xy 139.7 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60033b96-73c6-4a6e-a5bb-4a82eb4777a2")
+	)
+	(wire
+		(pts
+			(xy 212.09 107.95) (xy 137.16 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b508de-d7ab-428f-a375-9e59768b3e9b")
+	)
+	(wire
+		(pts
 			(xy 163.83 66.04) (xy 185.42 66.04)
 		)
 		(stroke
@@ -269,6 +321,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 99.06) (xy 209.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae385ae3-1760-40fe-ba63-36625951d6af")
+	)
+	(wire
+		(pts
 			(xy 102.87 49.53) (xy 115.57 49.53)
 		)
 		(stroke
@@ -286,6 +348,16 @@
 			(type default)
 		)
 		(uuid "b2a83380-2bcf-4c64-a6fa-f7d7121b8726")
+	)
+	(wire
+		(pts
+			(xy 137.16 87.63) (xy 137.16 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59b873c-5c09-4bd5-99bc-a198839c9a55")
 	)
 	(wire
 		(pts
@@ -768,6 +840,26 @@
 		(pin "FAN CONTROL" input
 			(at 185.42 60.96 180)
 			(uuid "0ec51d7d-198c-490d-8a6b-731972aa1f91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I^{2}C SCL" input
+			(at 212.09 99.06 270)
+			(uuid "2741c88e-b44d-4c61-99eb-d159cf710c99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I^{2}C SDA" bidirectional
+			(at 209.55 99.06 270)
+			(uuid "77fadbda-a7fa-4c24-b5e1-c18584124868")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3194,7 +3194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bda78d53-9c28-4ec3-ae9b-40506523965d")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0105"
 			(at 118.11 52.07 0)
 			(effects
 				(font
@@ -3244,7 +3244,7 @@
 		(instances
 			(project "Bad Apple"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c889d685-3039-4adb-ba70-2b5226dc43de/406caedd-a2b1-46ad-b9cd-3c72cd48bc6d"
-					(reference "#PWR015")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -3396,7 +3396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e47fe80f-33b0-4e29-8e6c-f257f418aa19")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0104"
 			(at 129.54 71.12 0)
 			(effects
 				(font
@@ -3446,7 +3446,7 @@
 		(instances
 			(project "Bad Apple"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c889d685-3039-4adb-ba70-2b5226dc43de/406caedd-a2b1-46ad-b9cd-3c72cd48bc6d"
-					(reference "#PWR016")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
