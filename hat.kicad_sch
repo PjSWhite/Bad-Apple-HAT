@@ -12,148 +12,6 @@
 		(comment 4 "This sheet defines the Raspberry Pi HAT interface")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2482,6 +2340,17 @@
 		)
 		(uuid "6e013786-2f41-4793-a424-d96f478fae69")
 	)
+	(text "Fan Control. Please set GPIO 18 as the pin in raspi-config"
+		(exclude_from_sim no)
+		(at 193.04 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7cf1d102-0a09-43aa-a59b-dcd0e2ea2acc")
+	)
 	(text "Raspberry Pi GPIO Pinout"
 		(exclude_from_sim no)
 		(at 196.596 60.452 0)
@@ -2513,28 +2382,6 @@
 			(justify left)
 		)
 		(uuid "a4e009bf-03f1-4d9e-a35e-2055ec17253a")
-	)
-	(text "Fan Control. Please set GPIO 18 as the pin in raspi-config"
-		(exclude_from_sim no)
-		(at 193.04 77.724 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a860cd23-af57-4568-af55-c16128f52bc8")
-	)
-	(text "I^{2}C Interface for the Identification\nEEPROM. Only used during development to\nflash said EEPROM with information required\nfor ease of use"
-		(exclude_from_sim no)
-		(at 48.514 141.478 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ab4bd938-4743-4101-8e69-1d94fc9d09a5")
 	)
 	(text "ID_SD and ID_SC PINS:\nThese pins are reserved for HAT ID EEPROM.\n\nAt boot time this I2C interface will be\ninterrogated to look for an EEPROM\nthat identifes the attached board and\nallows automagic setup of the GPIOs\n(and optionally, Linux drivers).\n\nBridging JP1 enables write protection.\n\nDO NOT USE these pins for anything other\nthan attaching an I2C ID EEPROM. Leave\nunconnected if ID EEPROM not required."
 		(exclude_from_sim no)
@@ -2571,7 +2418,7 @@
 	)
 	(text "Motor Enable. This is pulled LOW by default, and\nmust be pulled HIGH when the robot should begin\nto move"
 		(exclude_from_sim no)
-		(at 92.964 109.982 0)
+		(at 92.964 111.252 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2736,16 +2583,6 @@
 			(type solid)
 		)
 		(uuid "24170923-88ff-4aa9-875c-6a1ff99b21d1")
-	)
-	(wire
-		(pts
-			(xy 25.4 138.43) (xy 39.37 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "243e8ece-f830-4bd9-ad7c-e9583999b49b")
 	)
 	(wire
 		(pts
@@ -3006,16 +2843,6 @@
 			(type solid)
 		)
 		(uuid "6eff1c50-0be2-431f-88c8-e5d13c616bfc")
-	)
-	(wire
-		(pts
-			(xy 25.4 140.97) (xy 39.37 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73efa3b4-3e22-4869-a228-5d566bb70ee6")
 	)
 	(wire
 		(pts
@@ -3507,16 +3334,6 @@
 		)
 		(uuid "28ebb317-4478-4a84-93e5-53e262aec2be")
 	)
-	(label "ID_SCL"
-		(at 25.4 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a73588f-daa6-4aa2-9999-327d0dda1344")
-	)
 	(label "GPIO9{slash}SPI0.MISO"
 		(at 109.22 90.17 0)
 		(effects
@@ -3576,16 +3393,6 @@
 			(justify right bottom)
 		)
 		(uuid "6a831992-3da4-4fcf-95cd-ebb7d3924c37")
-	)
-	(label "ID_SDA"
-		(at 25.4 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "818daaac-7d29-4764-ac0b-2e5e06280907")
 	)
 	(label "ID_SCL"
 		(at 177.8 97.79 180)
@@ -3747,17 +3554,6 @@
 		)
 		(uuid "fa8135fd-b739-45c3-88e6-e37c99a502ac")
 	)
-	(hierarchical_label "MOTOR ENABLE"
-		(shape output)
-		(at 109.22 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0202c74c-bd2c-48f7-bbb1-03eae7e3ed12")
-	)
 	(hierarchical_label "~{SERVO ENABLE}"
 		(shape output)
 		(at 177.8 95.25 0)
@@ -3779,6 +3575,17 @@
 			(justify left)
 		)
 		(uuid "0efa46e3-3c2d-49e0-98e7-7d73f5d5fe35")
+	)
+	(hierarchical_label "FAN CONTROL"
+		(shape output)
+		(at 177.8 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20bf54ed-ae51-4007-8543-5e252cc5638f")
 	)
 	(hierarchical_label "U2 TRIGGER"
 		(shape output)
@@ -3802,6 +3609,17 @@
 		)
 		(uuid "22b9977d-9444-4eb3-87ab-9a1f5b34e486")
 	)
+	(hierarchical_label "PCM MIC"
+		(shape input)
+		(at 177.8 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49e8ed4a-7efe-479f-a2e8-96b9b2840835")
+	)
 	(hierarchical_label "M2DA"
 		(shape output)
 		(at 109.22 100.33 180)
@@ -3824,6 +3642,17 @@
 		)
 		(uuid "6010cbd0-e38c-497a-b20a-d75ee1d9fdd7")
 	)
+	(hierarchical_label "PCM CLK"
+		(shape output)
+		(at 177.8 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68bdd9ac-7df8-447d-bf55-6a00e99fef8a")
+	)
 	(hierarchical_label "MOTOR SPEED"
 		(shape output)
 		(at 109.22 105.41 180)
@@ -3845,17 +3674,6 @@
 			(justify right)
 		)
 		(uuid "6dd2c7d1-e31e-4e0c-a9ad-3bf34f5f43fe")
-	)
-	(hierarchical_label "FAN CONTROL"
-		(shape output)
-		(at 177.8 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7453973d-9287-40ac-8163-8eedd9ae2acf")
 	)
 	(hierarchical_label "I^{2}C SDA"
 		(shape bidirectional)
@@ -3890,6 +3708,28 @@
 		)
 		(uuid "8720d06f-7269-42c4-b8d3-b373cd1b53ca")
 	)
+	(hierarchical_label "PCM SPEAKER"
+		(shape output)
+		(at 177.8 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9803e791-41f4-45fe-b8bb-934760c4fc3d")
+	)
+	(hierarchical_label "PCM FS"
+		(shape output)
+		(at 109.22 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b25b86b3-56d8-41e9-8cd6-f63738071e6c")
+	)
 	(hierarchical_label "M4DB"
 		(shape output)
 		(at 177.8 92.71 0)
@@ -3911,6 +3751,17 @@
 			(justify left)
 		)
 		(uuid "c86a46cf-ed4b-4101-a1ed-3cf03cf4fcae")
+	)
+	(hierarchical_label "MOTOR ENABLE"
+		(shape output)
+		(at 109.22 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d024667e-8771-4364-bcc5-3a7cd4f032d6")
 	)
 	(hierarchical_label "I^{2}C SCL"
 		(shape output)
@@ -4725,74 +4576,6 @@
 			(project "Bad Apple"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b30abb3a-5689-47ca-b698-70986eaac049"
 					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 44.45 140.97 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "58641400-406b-43e1-8729-e159eff89420")
-		(property "Reference" "J8"
-			(at 44.45 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 44.45 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 44.45 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 44.45 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "403e2eb0-cf82-429d-a315-0fdf4bd4214c")
-		)
-		(pin "2"
-			(uuid "9f15534a-6e91-4fed-baf0-586af7c42c56")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b30abb3a-5689-47ca-b698-70986eaac049"
-					(reference "J8")
 					(unit 1)
 				)
 			)
