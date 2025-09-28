@@ -3147,6 +3147,16 @@
 		)
 		(uuid "e9039373-7bb1-4788-acd4-f30008b53253")
 	)
+	(text "Audio System"
+		(exclude_from_sim no)
+		(at 122.682 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc8643e0-de89-404d-8ab3-99d3b716291e")
+	)
 	(text "~{Left}"
 		(exclude_from_sim no)
 		(at 58.928 42.672 90)
@@ -4235,6 +4245,22 @@
 				(type none)
 			)
 			(uuid c35e51ef-18c9-474f-94b3-bf01479af1bc)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 18.415 143.51) (xy 18.415 194.31) (xy 128.905 194.31) (xy 128.905 143.51)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+				(color 0 132 0 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid d390da94-cebb-4c7d-96c6-249a4dbcb719)
 		)
 	)
 	(symbol
