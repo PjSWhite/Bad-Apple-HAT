@@ -2471,6 +2471,17 @@
 		)
 		(uuid "48316497-ffb9-4add-a6f5-eb87127cac3f")
 	)
+	(text "Fan Control. Please set GPIO 18 as the pin in raspi-config"
+		(exclude_from_sim no)
+		(at 193.04 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48743df6-0cdc-46f7-b3e6-dc7730f66395")
+	)
 	(text "Motor 1 Direction"
 		(exclude_from_sim no)
 		(at 101.346 78.994 0)
@@ -2481,6 +2492,17 @@
 			(justify right)
 		)
 		(uuid "6e013786-2f41-4793-a424-d96f478fae69")
+	)
+	(text "Motor Enable. This is pulled LOW by default, and\nmust be pulled HIGH when the robot should begin\nto move"
+		(exclude_from_sim no)
+		(at 92.964 112.522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "807e2fe5-fa04-4afa-8152-bf7596db959b")
 	)
 	(text "Raspberry Pi GPIO Pinout"
 		(exclude_from_sim no)
@@ -2513,17 +2535,6 @@
 			(justify left)
 		)
 		(uuid "a4e009bf-03f1-4d9e-a35e-2055ec17253a")
-	)
-	(text "Fan Control. Please set GPIO 18 as the pin in raspi-config"
-		(exclude_from_sim no)
-		(at 193.04 77.724 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a860cd23-af57-4568-af55-c16128f52bc8")
 	)
 	(text "I^{2}C Interface for the Identification\nEEPROM. Only used during development to\nflash said EEPROM with information required\nfor ease of use"
 		(exclude_from_sim no)
@@ -2568,17 +2579,6 @@
 			(justify left)
 		)
 		(uuid "f2dbe6d1-9dad-49ad-9b3d-606afb51ff2f")
-	)
-	(text "Motor Enable. This is pulled LOW by default, and\nmust be pulled HIGH when the robot should begin\nto move"
-		(exclude_from_sim no)
-		(at 92.964 109.982 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fa06f4c9-1051-4eef-a694-3517b78b6e7e")
 	)
 	(text "Additional pin functions:\nhttps://pinout.xyz/"
 		(exclude_from_sim no)
@@ -3747,17 +3747,6 @@
 		)
 		(uuid "fa8135fd-b739-45c3-88e6-e37c99a502ac")
 	)
-	(hierarchical_label "MOTOR ENABLE"
-		(shape output)
-		(at 109.22 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0202c74c-bd2c-48f7-bbb1-03eae7e3ed12")
-	)
 	(hierarchical_label "~{SERVO ENABLE}"
 		(shape output)
 		(at 177.8 95.25 0)
@@ -3779,6 +3768,17 @@
 			(justify left)
 		)
 		(uuid "0efa46e3-3c2d-49e0-98e7-7d73f5d5fe35")
+	)
+	(hierarchical_label "MOTOR ENABLE"
+		(shape output)
+		(at 109.22 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1319905c-d256-404d-b69c-9019ac69363d")
 	)
 	(hierarchical_label "U2 TRIGGER"
 		(shape output)
@@ -3813,6 +3813,17 @@
 		)
 		(uuid "5090d20c-8542-4b9a-b750-41634110877e")
 	)
+	(hierarchical_label "AUDIO OUT"
+		(shape output)
+		(at 177.8 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b035300-ba1b-400b-bb49-c146d0d754db")
+	)
 	(hierarchical_label "M4DA"
 		(shape output)
 		(at 177.8 90.17 0)
@@ -3845,17 +3856,6 @@
 			(justify right)
 		)
 		(uuid "6dd2c7d1-e31e-4e0c-a9ad-3bf34f5f43fe")
-	)
-	(hierarchical_label "FAN CONTROL"
-		(shape output)
-		(at 177.8 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7453973d-9287-40ac-8163-8eedd9ae2acf")
 	)
 	(hierarchical_label "I^{2}C SDA"
 		(shape bidirectional)
@@ -3901,6 +3901,17 @@
 		)
 		(uuid "bcda3b27-3fe8-4294-b300-30f7b752237f")
 	)
+	(hierarchical_label "AUDIO IN"
+		(shape input)
+		(at 177.8 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4c79a87-0a2c-489d-ad25-844db319feb9")
+	)
 	(hierarchical_label "M3DB"
 		(shape output)
 		(at 177.8 85.09 0)
@@ -3934,6 +3945,17 @@
 		)
 		(uuid "d8a7681f-828c-4c30-afeb-e643faadd666")
 	)
+	(hierarchical_label "FAN CONTROL"
+		(shape output)
+		(at 177.8 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "daa5f3bc-26c5-4197-8757-09e58d1dd470")
+	)
 	(hierarchical_label "RXD"
 		(shape input)
 		(at 177.8 74.93 0)
@@ -3944,6 +3966,17 @@
 			(justify left)
 		)
 		(uuid "df9b918b-97d7-4d0d-a10e-a3c03e3c0c44")
+	)
+	(hierarchical_label "AUDIO FRAME"
+		(shape output)
+		(at 109.22 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfbb8ee3-cc98-4f73-9eb1-c4a9acea2168")
 	)
 	(hierarchical_label "M1DA"
 		(shape output)
@@ -3966,6 +3999,17 @@
 			(justify left)
 		)
 		(uuid "fc4d2c73-50e3-470a-a2ac-25863cd82709")
+	)
+	(hierarchical_label "AUDIO CLK"
+		(shape output)
+		(at 177.8 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fdc65dc8-d4f2-40db-88e3-e522e196e46c")
 	)
 	(symbol
 		(lib_id "power:+5V")
