@@ -1,24 +1,5 @@
-# Belle
+# *Bad Apple!* HAT
 
-> [!IMPORTANT]
-> The `pcb` branch contains KiCAD files related to this project
+This repository contains the KiCAD project files for the Raspberry Pi HAT that will be developed alongside the project.
 
-This repository contains the code, 3d models, and software related to this upcoming research paper:
-> *Experimental Development of an Autonomous Rover Nurse for Reliable Pre-Meal Insulin Delivery: Advancing Diabetes Care Towards SDG 3 - Good Health and Well-Being*
-
-This repository contains the code and CAD files related to this research
-project.
-
-Project by:
-
-```txt
-Cebu Institute of Technology-University Senior High School Department
-Mixed Engineering Group 3
-STEM 12-Altruism
-Academic Year 2025-2026
-```
-
-```txt
-Natalio B Bacalso Ave, Cebu City
-Cebu, Philippines, 6000
-```
+Please look forward to this research project's completion :D
