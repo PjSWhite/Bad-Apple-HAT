@@ -2307,17 +2307,6 @@
 		)
 		(uuid "3d83b96b-71d1-4322-a05b-e8815cece31d")
 	)
-	(text "Whether or not to enable the servo motors.\nEnabled when this pin is pulled LOW"
-		(exclude_from_sim no)
-		(at 194.564 94.996 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "42cbcecb-2053-48af-80d7-7b62f796a183")
-	)
 	(text "Motor 2 Direction"
 		(exclude_from_sim no)
 		(at 101.854 101.6 0)
@@ -3553,17 +3542,6 @@
 			(justify right bottom)
 		)
 		(uuid "fa8135fd-b739-45c3-88e6-e37c99a502ac")
-	)
-	(hierarchical_label "~{SERVO ENABLE}"
-		(shape output)
-		(at 177.8 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0ed238e5-1914-47df-9298-dae4328d057b")
 	)
 	(hierarchical_label "LIDAR MOTOR"
 		(shape output)

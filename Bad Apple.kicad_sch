@@ -87,18 +87,6 @@
 		)
 		(uuid "f87dfd94-2556-475a-913b-b4ffdfba7bce")
 	)
-	(junction
-		(at 137.16 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "539da418-ef1a-4bdf-8d70-ded588dc6741")
-	)
-	(junction
-		(at 139.7 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59291faf-7667-4250-80fd-6d641567d7f1")
-	)
 	(wire
 		(pts
 			(xy 212.09 99.06) (xy 212.09 107.95)
@@ -108,26 +96,6 @@
 			(type default)
 		)
 		(uuid "05957ca5-3047-481c-9e76-6318633d914c")
-	)
-	(wire
-		(pts
-			(xy 83.82 87.63) (xy 137.16 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0df19e19-830b-42f5-8ac7-50b8ce1c3ddb")
-	)
-	(wire
-		(pts
-			(xy 139.7 90.17) (xy 81.28 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d96a817-ee9e-4dff-acda-510b92874144")
 	)
 	(wire
 		(pts
@@ -148,16 +116,6 @@
 			(type default)
 		)
 		(uuid "27f29ea0-7318-4592-a794-777d3f6b612f")
-	)
-	(wire
-		(pts
-			(xy 91.44 43.18) (xy 134.62 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "303135d0-6c12-4efa-aae3-1745045e49ff")
 	)
 	(wire
 		(pts
@@ -191,16 +149,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 137.16 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44f0a53d-c77b-4f78-9930-3cbd30b6c4b7")
-	)
-	(wire
-		(pts
 			(xy 102.87 62.23) (xy 115.57 62.23)
 		)
 		(stroke
@@ -221,16 +169,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 83.82) (xy 81.28 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "551b3019-6161-4c73-8c64-ec6324c00af1")
-	)
-	(wire
-		(pts
 			(xy 163.83 68.58) (xy 185.42 68.58)
 		)
 		(stroke
@@ -238,16 +176,6 @@
 			(type default)
 		)
 		(uuid "57babe16-01f2-49cd-943f-2f5dc4c3a90e")
-	)
-	(wire
-		(pts
-			(xy 139.7 90.17) (xy 139.7 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60033b96-73c6-4a6e-a5bb-4a82eb4777a2")
 	)
 	(wire
 		(pts
@@ -401,7 +329,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 87.63) (xy 137.16 107.95)
+			(xy 137.16 81.28) (xy 137.16 107.95)
 		)
 		(stroke
 			(width 0)
@@ -441,16 +369,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 43.18) (xy 134.62 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccb71087-d0af-4648-aed2-6159a78244ca")
-	)
-	(wire
-		(pts
 			(xy 163.83 60.96) (xy 185.42 60.96)
 		)
 		(stroke
@@ -461,7 +379,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 81.28) (xy 139.7 90.17)
+			(xy 139.7 81.28) (xy 139.7 105.41)
 		)
 		(stroke
 			(width 0)
@@ -478,16 +396,6 @@
 			(type default)
 		)
 		(uuid "cf348753-cece-4626-86f9-9b8e58fb2803")
-	)
-	(wire
-		(pts
-			(xy 91.44 46.99) (xy 91.44 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e677069e-17fc-4eb2-a656-06d54852f69d")
 	)
 	(wire
 		(pts
@@ -528,16 +436,6 @@
 			(type default)
 		)
 		(uuid "fd2685b4-6b42-4ee2-8d42-f94a943be064")
-	)
-	(wire
-		(pts
-			(xy 83.82 83.82) (xy 83.82 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fffbb539-bcaa-494e-be0a-1d4ba6b729bd")
 	)
 	(sheet
 		(at 43.18 95.25)
@@ -793,16 +691,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "~{SERVO ENABLE}" output
-			(at 134.62 46.99 90)
-			(uuid "6a90d2cd-9422-43ef-9d38-615172fc2be8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "MOTOR ENABLE" output
@@ -1152,36 +1040,6 @@
 		(pin "MOTOR SPEED" input
 			(at 102.87 76.2 0)
 			(uuid "4297e26a-030e-4736-990d-bf842c2f7e42")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I^{2}C SCL" input
-			(at 83.82 83.82 270)
-			(uuid "034ff37e-d570-48b9-9dbb-b8f23e2e4343")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I^{2}C SDA" bidirectional
-			(at 81.28 83.82 270)
-			(uuid "7b83f155-21ee-4f0d-a9fc-babeba92db58")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{SERVO ENABLE}" input
-			(at 91.44 46.99 90)
-			(uuid "4e00578a-fe8d-4f7e-ae57-db98a49f2850")
 			(effects
 				(font
 					(size 1.27 1.27)
