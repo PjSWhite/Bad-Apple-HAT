@@ -35,7 +35,7 @@
 	)
 	(text "The motors will have a separate power supply from\nthe rest of the system in order to isolate the\nmotor's noise from the rest of the system.\n\nAdditionally, This setup is required since the\nmotors will be running at a much higher voltage than\nthe rest of the system"
 		(exclude_from_sim no)
-		(at 175.768 78.232 0)
+		(at 169.926 49.784 0)
 		(effects
 			(font
 				(size 1.27 1.27)
