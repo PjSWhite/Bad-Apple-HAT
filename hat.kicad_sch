@@ -4095,6 +4095,15 @@
 				)
 			)
 		)
+		(property "Part#" "C18078157"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d678796-43d4-427f-808d-7fd8ec169db6")
 		)
@@ -4277,6 +4286,15 @@
 				)
 			)
 		)
+		(property "Part#" ""
+			(at 67.31 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e13b4ec0-0b1a-4833-a57f-adf38fe98aef")
 		)
@@ -4345,6 +4363,15 @@
 				)
 			)
 		)
+		(property "Part#" "C26042"
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c26b8bce-ef1b-44c3-8d6f-bdc9a8551c9b")
 		)
@@ -4365,7 +4392,7 @@
 		(at 96.52 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "43e66c4c-de75-44f8-8171-19825b035cbb")
@@ -4410,6 +4437,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part#" ""
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4478,6 +4514,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part#" "C26042"
+			(at 101.6 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4584,7 +4629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOP-8_3.76x4.96mm_P1.27mm"
 			(at 81.28 179.07 0)
 			(effects
 				(font
@@ -4608,6 +4653,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part#" "C36533643"
+			(at 81.28 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
